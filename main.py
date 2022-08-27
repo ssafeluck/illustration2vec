@@ -11,7 +11,8 @@ def main():
     #     "illust2vec_tag.prototxt", "illust2vec_tag_ver200.caffemodel",
     #     "tag_list.json")
 
-    img = Image.open("images/miku.jpg")
+    # img = Image.open("images/miku.jpg")
+    img = Image.open("images/01.png")
     tags = illust2vec.estimate_plausible_tags([img], threshold=0.5)
     print(tags)
 
