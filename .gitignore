@@ -65,3 +65,4 @@ target/
 *.caffemodel
 *.json
 .DS_Store
+.vscode
